@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+*{
+     font-family: Arial, sans-serif
+}
+
+/* *{
+    margin: 0 auto;
+    padding:0;
+
+} */
+ body , nav{
+    margin: 30px 0;
+ }
+.max-width{
+    max-width:1200px;
+    margin-left: 60px;
+}
+.btn{
+    border-radius: 5px;
+    padding: 10px;
+}
+.blod{
+    font-weight: bold;
+    font-size: 20px;
+}
+.center{
+    text-align: center;
+}
+.bg{
+   background-color:rgba(13, 19, 33, 0.02);
+    padding: 20px;;
+}
+.opacity{
+    opacity: 0.8;
+}
+/* navbar */
+.flex{
+    display: flex;
+   justify-content:space-around;
+}
+.btn-nav{
+    background-color: white;
+}
+/* header */
+.banner{
+    text-align: center;
+    background-image: url('../assets/Hero-bg.png');
+}
+.black{
+    color: white;
+    background-color: black;
+}
+/* section-1 */
+.why{
+    display: block;
+    padding:20px 40px;
+}
+.card-1{
+    margin: 50px;
+     display: flex;
+}
+.text{
+   background-color: #FFFFFF;
+    border-radius: 5px;
+    padding: 20px;
+}
+.button{
+    padding: 8px;
+}
+.img-1{
+    padding-left: 30px;
+
+}
+/* section-2 */
+.section-2{
+    margin-top: 80px;
+}
+.video{
+    padding: 15px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
