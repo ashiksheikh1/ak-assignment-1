@@ -133,7 +133,8 @@ body section{
     border: none;
 }
 /* footer */
-.footer{
+
+#footer{
     background-color: silver;
     padding: 20px; 
     margin: 20px;
